@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh,linpeas.sh,https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
+https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy32s,pspy32s,https://github.com/DominicBreuker/pspy
+https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64s,pspy62s,https://github.com/DominicBreuker/pspy
+https://raw.githubusercontent.com/Anon-Exploiter/SUID3NUM/master/suid3num.py,suid3num.py,https://github.com/Anon-Exploiter/SUID3NUM
+https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh,LinEnum.sh,https://github.com/rebootuser/LinEnum
+https://raw.githubusercontent.com/diego-treitos/linux-smart-enumeration/master/lse.sh,lse.sh,https://github.com/diego-treitos/linux-smart-enumeration
+https://raw.githubusercontent.com/mzet-/linux-exploit-suggester/master/linux-exploit-suggester.sh,les.sh,https://github.com/mzet-/linux-exploit-suggester
+https://raw.githubusercontent.com/itm4n/PrivescCheck/master/Invoke-PrivescCheck.ps1,Invoke-PrivescCheck.ps1,https://github.com/itm4n/PrivescCheck
+https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php,php-reverse-shell.php,https://github.com/pentestmonkey/php-reverse-shell
