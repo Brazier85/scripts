@@ -9,7 +9,7 @@ source "$HOME/.local/bin/functions"
 PAGESTART="""<html>
 <title>Get your scipts</title>
 <body>
-<h3>Docs:</h3>"""
+<h3>FILES:</h3>"""
 PAGEEND="""</br>&copy; by Brazier85</body></html>"""
 
 function getScript {
@@ -25,7 +25,7 @@ function getScript {
 function addLink {
 	NAME=$1
 	LINK=$2
-	echo "<a href=\"${LINK}\" target=\"_blank\">${NAME}</a></br>" >> $HOME/scripts/index.html
+	echo "<a href=\"${NAME}\" target=\"_blank\">${NAME}</a> - Docs: <a href=\"${LINK}\" target=\"_blank\">${NAME}</a></br>" >> $HOME/scripts/index.html
 }
 
 # Del old index
