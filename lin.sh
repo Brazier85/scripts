@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Basic enumeration for an IP adress
+# Download usefull files and start a http server on port 8000
 
 # Shared functions
 source "$HOME/.local/bin/functions"

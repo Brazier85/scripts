@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Modified version of this here: https://github.com/calebstewart/init-machine
+# Basic enumeration for a IP adress
 
 source "$HOME/.local/bin/functions"
 

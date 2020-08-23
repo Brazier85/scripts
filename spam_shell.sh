@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Spam other shells -> Not really usefull
+
 ME=$(tty | cut -c 6-)
 
 echo "We are $ME"
