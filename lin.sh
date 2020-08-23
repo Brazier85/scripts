@@ -9,8 +9,14 @@ source "$HOME/.local/bin/functions"
 PAGESTART="""<html>
 <title>Get your scipts</title>
 <body>
-<h3>FILES:</h3>"""
-PAGEEND="""</br>&copy; by Brazier85</body></html>"""
+<h3>FILES:</h3>
+<table>
+<tr>
+<td style=\"font-weight: bold;\">FILE</td>
+<td style=\"width: 30px;\">&nbsp;</td>
+<td style=\"font-weight: bold;\">DOCS</td>
+</tr>"""
+PAGEEND="""</table></br>&copy; by Brazier85</body></html>"""
 
 function getScript {
 	URL=$1
@@ -25,7 +31,7 @@ function getScript {
 function addLink {
 	NAME=$1
 	LINK=$2
-	echo "<a href=\"${NAME}\" target=\"_blank\">${NAME}</a> - Docs: <a href=\"${LINK}\" target=\"_blank\">${NAME}</a></br>" >> $HOME/scripts/index.html
+	echo "<tr><td><a href=\"${NAME}\" target=\"_blank\">${NAME}</a></td><td style=\"width: 30px;\">&nbsp;</td><td><a href=\"${LINK}\" target=\"_blank\">${NAME}</a></td></tr>" >> $HOME/scripts/index.html
 }
 
 # Del old index
