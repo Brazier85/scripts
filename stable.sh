@@ -8,6 +8,5 @@ source "$HOME/.local/bin/functions"
 hide_guake
 command "python -c 'import pty; pty.spawn(\"/bin/bash\")'"
 ctrl Z
-command "stty raw -echo"
-command2 "fg"
+command "stty raw -echo; fg"
 command "export TERM=xterm"
