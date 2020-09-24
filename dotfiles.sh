@@ -10,6 +10,7 @@ ok "Updating dotfiles"
 info "Pull last version"
 cd $HOME/.dotfiles
 git pull --recurse-submodules
+git submodule foreach --recursive git stash && git checkout master && git pull
 ok "Submit changes"
 git add .
 if [ $# -eq 0 ]; then
