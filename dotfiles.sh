@@ -10,6 +10,7 @@ ok "Updating dotfiles"
 info "Pull last version"
 cd $HOME/.dotfiles
 git pull --recurse-submodules
+info "Making sure we are on master"
 git submodule foreach --recursive git stash && git checkout master && git pull
 ok "Submit changes"
 git add .
